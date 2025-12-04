@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goworkBannerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00C5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3F76FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background preto -->
+  <rect width="800" height="200" fill="#000000"/>
+  
+  <!-- Borda cyan superior -->
+  <rect width="800" height="8" fill="#00C5E9"/>
+  
+  <!-- Borda cyan inferior -->
+  <rect y="192" width="800" height="8" fill="#00C5E9"/>
+  
+  <!-- Área cinza escura central -->
+  <rect y="8" width="800" height="184" fill="#1a1d21"/>
+  
+  <!-- Letra G estilizada no canto esquerdo -->
+  <g transform="translate(-50, 100)">
+    <path d="M 0,-80 A 80,80 0 0,1 56.57,-56.57 L 80,0 L 80,60 L 0,60 L 0,-80 Z" 
+          fill="url(#goworkBannerGradient)" 
+          stroke="none"/>
+  </g>
+</svg>
+
+
